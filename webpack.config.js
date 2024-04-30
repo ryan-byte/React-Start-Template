@@ -6,7 +6,7 @@ const Dotenv = require('dotenv-webpack');
 module.exports= (env,argv) => {
     let mode = argv.mode;
     return {
-        entry: "./index.js", 
+        entry: "./src/app.jsx", 
     
         plugins: [
             new HtmlWebpackPlugin({
